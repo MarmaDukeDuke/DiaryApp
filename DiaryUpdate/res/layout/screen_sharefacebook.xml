@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/header"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_height="wrap_content" 
+       android:layout_width="fill_parent" 
+       android:background="#000000" 
+       >
+
+    	<include layout="@layout/global_title_dark" />
+		
+		<LinearLayout android:id="@+id/myContent"
+    		android:layout_height="fill_parent" 
+    		android:layout_width="fill_parent"
+    		android:layout_marginTop="47dip"
+    		android:layout_marginRight="10dip"
+		  	android:layout_marginLeft="10dip"
+		  	android:orientation="vertical"
+		>
+
+		<ImageButton
+			android:id="@+id/btnFacebook"
+			android:layout_width="300dip"
+			android:layout_height="111dip"
+    		android:layout_marginTop="50dip"
+			android:src="@drawable/app_share_facebook" 
+    		android:gravity="center_vertical|center_horizontal"
+			android:layout_centerHorizontal="true"
+ 		/>
+		
+ 		</LinearLayout>
+
+
+ </RelativeLayout>
+ 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My DiaryApp</string>
+    <string name="googleMapsAPIKeyDebug">yourGoogleMapsApiKeyForDebug</string>
+    <string name="googleMapsAPIKeyRelease">yourGoogleMapsApiKeyForRelease</string>
+    <string name="facebookAPPName">yourFacebookAppName</string>
+    <string name="facebookAPIKey">yourFacebookAppApiKey</string>
+    <string name="facebookAPISecret">yourFacebookAppApiSecret</string>
+ </resources>

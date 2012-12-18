@@ -1,0 +1,43 @@
+<RelativeLayout android:id="@+id/titleLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="47dip" 
+    android:layout_width="fill_parent" 
+    android:background="@drawable/app_global_title_dark"
+>
+       
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/btnBack"
+	android:layout_width="40dip"
+	android:layout_height="47dip"
+	android:src="@drawable/app_back_light" 
+	android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:background="@android:color/transparent"    
+/>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myTitle" 
+   	android:layout_width="fill_parent"
+    android:layout_height="47dip" 
+    android:layout_marginLeft="38dip"
+    android:layout_marginRight="28dip"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:text="" 
+   	android:textSize="25dip"
+   	android:singleLine="True"
+    android:gravity="center_vertical|center_horizontal"
+	android:layout_alignParentTop="true"
+ />
+ 
+ <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/btnInfo"
+	android:layout_width="40dip"
+	android:layout_height="47dip"
+	android:src="@drawable/app_info_light" 
+	android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:background="@android:color/transparent"
+/>
+ 
+ </RelativeLayout>

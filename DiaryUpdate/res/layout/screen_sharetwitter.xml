@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/header"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_height="wrap_content" 
+       android:layout_width="fill_parent" 
+       android:background="#000000" 
+       >
+
+    	<include layout="@layout/global_title_dark" />
+		
+		<LinearLayout android:id="@+id/myContent"
+    		android:layout_height="fill_parent" 
+    		android:layout_width="fill_parent"
+    		android:layout_marginTop="47dip"
+    		android:layout_marginRight="10dip"
+		  	android:layout_marginLeft="10dip"
+		  	android:orientation="vertical"
+		>
+
+
+		  <EditText android:id="@+id/twitterId"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="40dip" 
+		  	android:layout_margin="5dip"
+			android:textSize="18sp"
+		  	android:hint="Twitter Username" 
+		    android:textColorHint="#000000"
+		    android:textColor="#000000" 
+		    android:background="#FFFFFF" 
+		    android:padding="5dip"
+		    android:singleLine="true"
+		   	android:layout_centerVertical="true"
+    		android:gravity="center_vertical"
+		    android:layout_weight="0">
+		  </EditText>
+
+		     
+		  <EditText android:id="@+id/twitterPass"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="40dip" 
+		  	android:layout_margin="5dip"
+			android:textSize="18sp"
+		  	android:hint="Twitter Password" 
+		    android:textColorHint="#000000"
+		    android:textColor="#000000" 
+		    android:background="#FFFFFF" 
+		    android:padding="5dip"
+		   	android:singleLine="true"
+		   	android:password="true"
+		   	android:layout_centerVertical="true"
+    		android:gravity="center_vertical"
+		    android:layout_weight="0">
+		  </EditText>
+		  
+		  <EditText android:id="@+id/twitterMessage"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="110dip" 
+		  	android:layout_margin="5dip"
+		  	android:hint="" 
+		    android:textColorHint="#000000"
+		    android:textColor="#000000" 
+		    android:background="#FFFFFF" 
+		    android:padding="5dip"
+		   	android:singleLine="false"
+		   	android:gravity="top"
+		   	android:maxLength="140"
+		   	android:layout_weight="0">
+		  </EditText>		  
+		  
+		  <Button android:id="@+id/btnSubmit"
+		   	android:layout_margin="5dip"
+		   	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		    android:text="Post Tweet"
+		    android:textSize="20sp" 
+		    android:layout_centerHorizontal="true"
+		    
+		    > 
+		  </Button>
+
+		<ImageView
+			android:id="@+id/twitterImageView"
+			android:layout_margin="5dip"
+			android:layout_width="300dip"
+			android:layout_height="111dip"
+			android:scaleType="centerCrop"
+			android:src="@drawable/app_share_twitter" 
+			android:layout_centerHorizontal="true"
+ 		/>
+		
+ 		</LinearLayout>
+
+
+ </RelativeLayout>
+ 

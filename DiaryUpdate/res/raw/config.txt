@@ -1,0 +1,6 @@
+{"appData":{
+	"appGuid":"B4C99C343ADEB4EEA9ED8EA4",
+	"appApiKey":"0A82F7D0229AA0753D97C35",
+	"appDataURL":"http://www.buzztouch.com/appdata/v1.4.php"
+	}
+}
